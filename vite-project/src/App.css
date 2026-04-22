@@ -182,3 +182,22 @@
     border-right-color: var(--border);
   }
 }
+
+
+
+
+
+.rouge {
+  width: 100%;
+  height: 100px;
+  background-color: red;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.yellow {
+  height: 100px;
+  background-color: yellow;
+}
+

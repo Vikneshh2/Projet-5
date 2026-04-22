@@ -1,0 +1,12 @@
+.error {
+  display: block;
+  color: #FF6060;
+  font-size: 150px;
+  font-family: 'Montserrat';
+  margin-bottom: 100px;
+
+}
+
+p {
+    color: #FF6060;
+}

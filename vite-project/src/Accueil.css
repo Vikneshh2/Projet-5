@@ -1,0 +1,56 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* background-color: lightblue; */
+}
+
+main {
+  flex-grow: 1;
+}
+
+footer {
+  margin-top: auto;
+  margin-bottom: 0;
+  width: 100px;
+}
+#footer {
+  display: flex;
+}
+
+.banner {
+  height: 223px;
+  background-color: blue;
+  border-radius: 20px;
+  /* box-shadow: 0 3px ; */
+  font-size: 48px;
+  color: white;
+  font-style: bold;
+  font-family: 'Montserrat';
+  margin-bottom: 50px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+} 
+
+header button {
+  display: inline;
+  border: none;
+  background: none;
+  width: 120px;
+  height: 34px;
+  font-size: 24px;
+  font-weight: 500;
+  
+}
+
+#logo {
+  width: 210px;
+  display: flex;
+}

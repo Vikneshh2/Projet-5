@@ -1,0 +1,162 @@
+.container-logement {
+  /* width: 1240px; */
+  /* height: 643px; */
+  background-color: lightblue;
+
+}
+
+.pictures{
+  background-color: lightgreen;
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 24px;
+}
+
+.info1 {
+  background-color: lightcoral;
+  height: 77px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.info2 {
+  background-color: lightpink;
+  height: 38px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.info3 {
+  background-color: lightsalmon;
+  /* height: 52px; */
+  height: 200px;
+  width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.container-text {
+  width: 100%;
+
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-top: 5px;
+
+}
+
+.location {
+  font-size: 18px;
+  color: black;
+  text-align: start;
+}
+
+
+.host {
+  display: flex;
+  align-items: center;
+}
+
+.container-logement p {
+  margin: 0;
+  text-align: end;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 1.2;
+
+}
+.container-logement .img-pro {
+  width: 60px;
+  height: 60px;
+  border-radius: 100px;
+  margin: 0;
+  margin-left: 5px;
+}
+
+
+.container-tags {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.tag {
+  width: 115px;
+  height: 25px;
+  font-size: 14px;
+  color: white;
+  background-color: #FF6060;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.rating {
+  background-color: violet;
+  width: 200px;
+  height: 36px;
+}
+
+.carroussel {
+  /* width: 582px; */
+  height: 52px;
+  background-color: #FF6060;
+  text-align: start;
+  padding-left: 20px;
+  border-radius: 10px;
+  color: white;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+.icon {
+  height: 30px;
+  width: 30px;
+  /* background-color: blue; */
+  margin-right: 20px;
+}
+
+.liste {
+  background-color: #F6F6F673;
+  color: black;
+  padding: 20px 20px 20px 20px; 
+  text-align: start;
+  font-size: 18px;
+}
+
+.carroussel .icons {
+height: 100%;
+}
+
+/* .carroussel {
+  width: 582px;
+  height: 52px;
+  background-color: #FF6060;
+  text-align: start;
+  padding-left: 20px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 700;
+} */
+
+
+
+.star {
+  width: 20%;
+}
+
+.rating {
+  display: flex;
+}

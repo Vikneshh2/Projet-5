@@ -1,8 +1,6 @@
 import './Accueil.css'
 import { Link } from 'react-router-dom'
 
-
-
 interface CardLocationProps {
   image:string
   texte:string
@@ -10,7 +8,7 @@ interface CardLocationProps {
 }
 
 function CardLocation (props:CardLocationProps) {
-return       <Link to='/logement' className='card-link'>
+return       <Link to={{pathname: `/logement/${props.id}`}} className='card-link'>
    <div className='card'>
           <img src={props.image}  />
           <p className='card-text'>{props.texte}</p>

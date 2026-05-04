@@ -1,0 +1,26 @@
+.text-content {
+  width: 100%;
+  background-color: #F6F6F673;
+  border-radius: 10px;
+  padding: 2%;
+
+}
+
+
+article {
+  display: flex;
+  flex-direction: column;
+    margin-bottom: 20px;
+
+}
+
+.content {
+
+padding-left: 8%;
+padding-right: 8%;
+}
+
+.text-content p {
+  color: black;
+  text-align: start;
+}

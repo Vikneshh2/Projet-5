@@ -2,15 +2,13 @@ import './Accueil.css'
 import Logo from "./assets/LOGO.svg"
 import Footer from "./assets/Footer.svg"
 import './Logement.css'
-import ArrowBack from './assets/arrow_back.svg'
 import HeaderApp from './HeaderApp'
-import ContainerLocation from './ContainerLocation'
+import Slideshow from './Slideshow'
 import logementsJSON from '../logements.json'
-import InactiveStar from './assets/star-inactive 1.svg'
-import ActiveStar from './assets/star-active 2.svg'
 import { useParams } from "react-router-dom"
 import Dropdown from './Dropdown'
 import StarRating from './StarRating'
+import Tags from './Tags'
 
 
 function Logement () {
@@ -21,7 +19,7 @@ return <>
     <main>
 <div className='container-logement'>
 
-  <ContainerLocation image={Logo}></ContainerLocation>
+  <Slideshow pictures={logement?.pictures}></Slideshow>
   <div className='info1'>
     <div className='container-texte'>
     <div className='title'>{logement?.title}</div> 
@@ -36,12 +34,11 @@ return <>
 
   <div className='info2'>
     <div className='container-tags'>
-      <div className='tag'>Cozy</div>
-      <div className='tag'>Canal</div>
-      <div className='tag'>Paris 10</div>
+      <Tags tags={logement?.tags}></Tags>
     </div>
-
+        <div id='rating'>
       <StarRating rating={logement?.rating}></StarRating>
+      </div>
   </div>
 
 

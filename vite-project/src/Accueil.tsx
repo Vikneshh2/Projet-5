@@ -6,6 +6,7 @@ import HeaderApp from './HeaderApp'
 import BannerImage from './assets/Banniere.svg'
 import logementsJSON from '../logements.json'
 import CardLocation from './CardLocation'
+import './index.js'
 
 
 

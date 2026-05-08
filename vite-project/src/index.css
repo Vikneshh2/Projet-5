@@ -122,3 +122,6 @@ main, header {
   margin-right: 7%;
 }
 
+a {
+text-decoration: none;
+}

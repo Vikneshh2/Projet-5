@@ -89,7 +89,7 @@ header button {
 .banner-text {
  position: absolute;
   bottom: 20px;
-  left: 20px;
+  /* left: 20px; */
   color: white;
   z-index: 1;
   border: black solid px ; 

@@ -8,7 +8,7 @@ const router = createBrowserRouter([
   {
     path: '/',
     element: <Accueil />,
-    errorElement: <ErrorPage />
+    // errorElement: <ErrorPage />
   },
   {
     path: '/propos',
@@ -16,7 +16,12 @@ const router = createBrowserRouter([
   },
   {
     path: '/logement/:idLogement',
-    element: <Logement />
+    element: <Logement />,
+    errorElement: <ErrorPage />
+  },
+  {
+    path: '*',
+    element: <ErrorPage />
   }
 ])
 

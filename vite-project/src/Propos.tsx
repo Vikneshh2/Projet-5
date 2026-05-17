@@ -7,7 +7,7 @@ import Banner2 from './assets/Banner2.svg'
 import Banner from './Banner'
 import HeaderApp from './HeaderApp'
 import Dropdown from './Dropdown'
-import './index.js'
+
 
 
 function Propos () {

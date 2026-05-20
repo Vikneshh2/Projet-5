@@ -6,7 +6,7 @@ import './Logement.css'
 
 
 interface SlideshowProps {
-  pictures:string[]
+  pictures:string[] 
 }
 
 

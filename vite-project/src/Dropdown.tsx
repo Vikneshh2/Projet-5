@@ -9,8 +9,8 @@ import { useState } from 'react'
 // et elle permet également de réactualiser la page lors d'un changement. 
 
 interface DropdownProps {
-texte:string
-description:string
+texte:string | undefined
+description:string | undefined
 }
 
 function Dropdown (props:DropdownProps) {

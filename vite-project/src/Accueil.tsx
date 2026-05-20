@@ -1,11 +1,12 @@
 import './Accueil.css'
 import Logo from './assets/Logo.svg'
-import Footer from "./assets/Footer.svg"
+import FooterApp from "./FooterApp"
 import Banner from './Banner'
 import HeaderApp from './HeaderApp'
 import BannerImage from './assets/Banniere.svg'
 import logementsJSON from '../logements.json'
 import CardLocation from './CardLocation'
+
 
 
 
@@ -21,9 +22,7 @@ function Accueil () {
       ))}
       </div>
     </main>
-    <footer>
-      <img src={Footer} id='footer' />
-    </footer>
+    <FooterApp></FooterApp>
   </>
 }
 export default Accueil

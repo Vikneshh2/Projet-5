@@ -1,5 +1,5 @@
 interface TagsProps {
-  tags:string[]
+  tags:string[] 
 }
 
 function Tags (props:TagsProps) {

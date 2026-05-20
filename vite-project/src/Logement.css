@@ -1,12 +1,6 @@
-.container-logement {
-  /* width: 1240px; */
-  /* height: 643px; */
-  /* background-color: lightblue; */
-
-}
-
+/* 
 .pictures{
-  /* background-color: lightgreen; */
+
   width: 100%;
   height: 45vh;
   border-radius: 20px;
@@ -15,7 +9,6 @@
 }
 
 .info1 {
-  /* background-color: lightcoral; */
   height: 77px;
   margin-bottom: 15px;
   display: flex;
@@ -24,7 +17,7 @@
 
 
 .info2 {
-  /* background-color: lightpink; */
+
   height: 38px;
     margin-bottom: 15px;
     display: flex;
@@ -34,8 +27,7 @@
 
 
 .info3 {
-  /* background-color: lightsalmon; */
-  /* height: 52px; */
+
   height: 200px;
   width: 100%;
     display: flex;
@@ -106,13 +98,13 @@
 }
 
 .rating {
-  /* background-color: violet; */
+
   width: 200px;
   height: 36px;
 }
 
 .carroussel {
-  /* width: 582px; */
+
   height: 52px;
   background-color: #FF6060;
   text-align: start;
@@ -129,7 +121,7 @@
 .icon {
   height: 30px;
   width: 30px;
-  /* background-color: blue; */
+
   margin-right: 20px;
 }
 
@@ -144,17 +136,6 @@
 .carroussel .icons {
 height: 100%;
 }
-
-/* .carroussel {
-  width: 582px;
-  height: 52px;
-  background-color: #FF6060;
-  text-align: start;
-  padding-left: 20px;
-  border-radius: 10px;
-  color: white;
-  font-weight: 700;
-} */
 
 
 
@@ -192,4 +173,4 @@ height: 100%;
     top: 30%;
     right: 10%;
     width: 3.5vw;
-}
+}  */

@@ -1,7 +1,6 @@
 import './Accueil.css'
 import Logo from "./assets/LOGO.svg"
 import Footer from "./assets/Footer.svg"
-import './Logement.css'
 import HeaderApp from './HeaderApp'
 import Slideshow from './Slideshow'
 import logementsJSON from '../logements.json'

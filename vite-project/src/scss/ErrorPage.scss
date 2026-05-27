@@ -1,0 +1,39 @@
+@use "../scss/variables.scss" as v;
+.error {
+  color: v.$primary-color;
+  margin-top: 100px;
+  font-size: 19vw;
+  margin-bottom: 100px;
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+p {
+  color: v.$primary-color;
+  margin-bottom: 50px;
+}
+
+.text-error {
+  font-size: larger;
+  padding: 5%;
+  font-weight: v.$font-weight-normal;
+  text-align: center;
+}
+
+.retour-accueil {
+  background: none;
+  border: none;
+  text-decoration: underline;
+  @include v.mobile {
+    text-transform: capitalize;
+
+  }
+}
+
+main {
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

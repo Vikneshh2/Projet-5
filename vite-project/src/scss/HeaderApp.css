@@ -1,0 +1,45 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+button {
+  display: inline;
+  border: none;
+  background: none;
+  padding-left: 3rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-transform: none;
+  color: black;
+}
+@media (max-width: 650px) {
+  button {
+    font-size: 0.8rem;
+    padding-left: 1rem;
+    text-transform: uppercase;
+  }
+}
+
+a.active button {
+  text-decoration: underline;
+}
+
+#logo {
+  min-width: 120px;
+  width: 14vw;
+  display: flex;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f6f6f6;
+  border-radius: 20px;
+  padding: 3%;
+  gap: 1.5vw;
+}/*# sourceMappingURL=HeaderApp.css.map */

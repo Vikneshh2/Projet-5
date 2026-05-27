@@ -1,0 +1,61 @@
+@use "../scss/variables.scss" as v;
+  .imageContainer{
+    position: relative;
+    width: 100%;
+
+    .pictures {
+  position: relative;
+  width: 100%;
+  height: 45vh;
+  border-radius: v.$border-radius;
+  margin-bottom: 24px;
+  object-fit: cover;
+      @include v.mobile {
+          height: 35vh;
+    }
+}
+
+ p {
+  color: v.$white-color;
+  align-items: center;
+  position: absolute;
+  bottom: 5%;
+  right: 50%;
+    @include v.mobile {
+        display: none;
+    }
+}
+
+.arrowLeft {
+  position: absolute;
+  top: 35%;
+  left: 5%;
+  width: 3.5vw;
+  cursor: pointer;
+    @include v.mobile {
+  top: 40%;
+  }
+}
+
+
+
+.arrowRight {
+  position: absolute;
+  top: 35%;
+  right: 5%;
+  width: 3.5vw;
+  cursor: pointer;
+  @include v.mobile {
+  top: 40%;
+  }
+} 
+
+}
+
+
+
+
+
+
+
+

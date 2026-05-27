@@ -1,0 +1,54 @@
+.imageContainer {
+  position: relative;
+  width: 100%;
+}
+.imageContainer .pictures {
+  position: relative;
+  width: 100%;
+  height: 45vh;
+  border-radius: 20px;
+  margin-bottom: 24px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media (max-width: 650px) {
+  .imageContainer .pictures {
+    height: 40vh;
+  }
+}
+.imageContainer p {
+  color: white;
+  align-items: center;
+  position: absolute;
+  bottom: 5%;
+  right: 50%;
+}
+@media (max-width: 650px) {
+  .imageContainer p {
+    display: none;
+  }
+}
+.imageContainer .arrowLeft {
+  position: absolute;
+  top: 35%;
+  left: 5%;
+  width: 3.5vw;
+  cursor: pointer;
+}
+@media (max-width: 650px) {
+  .imageContainer .arrowLeft {
+    top: 40%;
+  }
+}
+.imageContainer .arrowRight {
+  position: absolute;
+  top: 35%;
+  right: 5%;
+  width: 3.5vw;
+  cursor: pointer;
+}
+@media (max-width: 650px) {
+  .imageContainer .arrowRight {
+    top: 40%;
+  }
+}/*# sourceMappingURL=Slideshow.css.map */

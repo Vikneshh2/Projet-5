@@ -1,0 +1,8 @@
+#rating {
+  width: 200px;
+  height: 36px;
+  display: flex;
+}
+#rating .star {
+  width: 20%;
+}/*# sourceMappingURL=StarRating.css.map */

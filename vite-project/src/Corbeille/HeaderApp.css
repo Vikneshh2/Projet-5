@@ -1,0 +1,29 @@
+a.active button {
+  text-decoration: underline;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+header button {
+  display: inline;
+  border: none;
+  background: none;
+  padding-left: 3rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-transform: none;
+  color: black;
+}
+
+#logo {
+  min-width: 120px;
+  width: 14vw;
+  display: flex;
+}/*# sourceMappingURL=HeaderApp.css.map */

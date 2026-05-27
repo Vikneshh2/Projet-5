@@ -1,0 +1,77 @@
+.card {
+  border-radius: 10px;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+}
+@media (max-width: 650px) {
+  .card {
+    aspect-ratio: 4/3;
+  }
+}
+.card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.card-link {
+  flex: 0 0 32%;
+}
+@media (max-width: 1024px) {
+  .card-link {
+    flex: 0 0 48%;
+  }
+}
+@media (max-width: 650px) {
+  .card-link {
+    flex: 0 0 100%;
+  }
+}
+.card-text {
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  position: absolute;
+  z-index: 1;
+  bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: start;
+  margin-bottom: 10px;
+}
+.card img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media (max-width: 650) {
+  .card img {
+    width: 100%;
+    display: block;
+  }
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f6f6f6;
+  border-radius: 20px;
+  padding: 3%;
+  gap: 1.5vw;
+}
+.container-text {
+  width: 100%;
+}
+@media (max-width: 650px) {
+  .container {
+    background-color: white;
+    padding: 10px;
+    gap: 10px;
+  }
+}/*# sourceMappingURL=Cardlocation.css.map */

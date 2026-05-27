@@ -1,0 +1,40 @@
+body {
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding-bottom: 0;
+}
+
+main {
+  flex: 1;
+  padding-bottom: 3rem;
+}
+@media (max-width: 650px) {
+  main {
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+}
+
+* {
+  font-family: "Montserrat";
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main,
+header {
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */

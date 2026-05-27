@@ -1,0 +1,129 @@
+.container-logement .info1 {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.container-logement .info1 .title {
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  text-align: start;
+  color: #ff6060;
+  line-height: 6vw;
+}
+@media (max-width: 650px) {
+  .container-logement .info1 .title {
+    font-size: 18px;
+  }
+}
+.container-logement .info1 .location {
+  font-size: 18px;
+  color: black;
+  text-align: start;
+}
+@media (max-width: 650px) {
+  .container-logement .info1 .location {
+    font-size: 14px;
+  }
+}
+.container-logement .info1 .host {
+  display: flex;
+  align-items: center;
+}
+.container-logement .info1 .host .nom-pro {
+  margin: 0;
+  text-align: end;
+  font-size: 2vw;
+  letter-spacing: 0;
+  line-height: 1.2;
+}
+@media (max-width: 650px) {
+  .container-logement .info1 .host .nom-pro {
+    font-size: 3vw;
+  }
+}
+.container-logement .info1 .host .img-pro {
+  width: 5vw;
+  aspect-ratio: 1/1;
+  border-radius: 100px;
+  margin: 0;
+  margin-left: 5px;
+}
+@media (max-width: 1024px) {
+  .container-logement .info1 .host .img-pro {
+    width: 7vw;
+  }
+}
+@media (max-width: 650px) {
+  .container-logement .info1 .host .img-pro {
+    width: 9vw;
+  }
+}
+.container-logement .info2 {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 16px;
+}
+.container-logement .info2-tags {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 10px;
+}
+.container-logement .info2-tags .tag {
+  height: 25px;
+  font-size: 14px;
+  color: white;
+  background-color: #ff6060;
+  margin-right: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+@media (max-width: 650px) {
+  .container-logement .info2-tags .tag {
+    height: 18px;
+    font-size: 10px;
+    padding-bottom: 22px;
+  }
+}
+.container-logement .info3 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+@media (max-width: 650px) {
+  .container-logement .info3 {
+    flex-direction: column;
+    row-gap: 5px;
+  }
+}
+
+.icon {
+  height: 30px;
+  width: 30px;
+  margin-right: 20px;
+}
+
+.liste {
+  background-color: rgba(246, 246, 246, 0.4509803922);
+  color: black;
+  padding: 20px 20px 20px 20px;
+  text-align: start;
+  font-size: 18px;
+}
+
+.section {
+  flex: 0 0 50%;
+}
+
+.container2 {
+  display: flex;
+}/*# sourceMappingURL=Logement.css.map */

@@ -1,0 +1,25 @@
+@use "../scss/variables.scss" as v;
+
+  .container-tags {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 10px;
+
+  .tag {
+@include v.flex-center;
+  height: 25px;
+  font-size: 14px;
+  color: v.$white-color;
+  background-color: v.$primary-color;
+  margin-right: 10px;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  border-radius: 20px;
+  font-weight: bold;
+  @include v.mobile {
+        height: 2.5vh;
+    font-size: 10px;
+
+  }
+}
+}

@@ -1,0 +1,55 @@
+//Colors
+$primary-color: #ff6060;
+$text-color: black;
+$white-color: white;
+$background-dropdown: #f6f6f673;
+
+
+// Dimensions 
+$border-radius: 20px;
+$border-radius-small: 10px;
+
+// Spacing
+$gap-cards:1.5vw;
+$gap-cards-small:2vw;
+
+
+// Fonts 
+$font-family:'Montserrat';
+$font-weight-bold: 700;
+$font-weight-normal: 500;
+$font-size-normal: 18px;
+
+
+// Flex
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+// Media
+$breakpoint-desktop: 1440px;
+$breakpoint-tablet: 1024px;
+$breakpoint-mobile: 650px;
+
+
+@mixin tablet {
+@media (max-width: $breakpoint-tablet) {
+  @content;
+}
+}
+
+
+
+@mixin mobile {
+@media (max-width: $breakpoint-mobile) {
+  @content;
+}
+}
+
+
+

@@ -1,0 +1,134 @@
+@use "../scss/variables.scss" as v;
+
+
+
+.container-logement {
+
+  .info1 {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+
+    .title {
+    font-size: 36px;
+    font-weight: v.$font-weight-normal;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    text-align: start;
+    color: v.$primary-color;
+    line-height: 6vw;
+    @include v.mobile {
+      font-size: v.$font-size-normal;
+    }
+  }
+
+  .location {
+    font-size: v.$font-size-normal;
+    color: v.$text-color;
+    text-align: start;
+    @include v.mobile {
+      font-size: 14px;
+    }
+  }
+
+  .host {
+  @include v.flex-center;
+    
+    .nom-pro {
+    margin: 0;
+    text-align: end;
+    font-size: 2vw;
+    letter-spacing: 0;
+    line-height: 1.2; 
+    @include v.mobile {
+      font-size: 3vw;
+    }
+  }
+
+    .img-pro {
+    width: 5vw;
+    aspect-ratio: 1/1;
+    border-radius: 100px;
+    margin: 0;
+    margin-left: 5px;
+    @include v.tablet {
+      width: 7vw;
+    }
+    @include v.mobile {
+      width: 9vw;
+    }
+  }
+  }}
+
+  .info2 {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 16px;
+
+
+
+  }
+
+  .info3 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    column-gap: 10px;
+    @include v.mobile {
+          flex-direction: column;
+          row-gap: 5px;
+    }
+  }
+
+}
+
+
+
+
+.icon {
+  height: 30px;
+  width: 30px;
+
+  margin-right: 20px;
+}
+
+.liste {
+  background-color: #f6f6f673;
+  color: v.$text-color;
+  padding: 20px 20px 20px 20px;
+  text-align: start;
+  font-size: v.$font-size-normal;
+}
+
+
+
+.section {
+  flex: 0 0 50%;
+}
+
+
+
+.container2 {
+  display: flex;
+}
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+

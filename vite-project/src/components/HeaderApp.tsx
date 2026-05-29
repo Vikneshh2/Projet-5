@@ -1,4 +1,3 @@
-// import "../Accueil.css";
 import "../scss/HeaderApp.scss";
 import { NavLink } from "react-router-dom";
 

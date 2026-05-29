@@ -1,4 +1,3 @@
-// import "../Accueil.css";
 import "../scss/FooterApp.scss";
 import FooterLogo from "../assets/LOGO-white.svg";
 

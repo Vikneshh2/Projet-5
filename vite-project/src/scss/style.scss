@@ -1,8 +1,9 @@
 @use './variables.scss' as v;
 
 
+
 body{
-color: v.$white-color; 
+  background-color: v.$white-color; 
   min-height: 100vh;
   display: flex;
   flex-direction: column;
